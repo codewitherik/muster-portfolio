@@ -1,0 +1,41 @@
+body {
+      font-family: "Noto Sans Batak", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      background-image: url(./wave-haikei.png);
+      color: white;
+      background-size: cover;
+      gap: 50px;
+}
+
+.container {
+    height: 100vh;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    gap: 50px;
+}
+
+h1 {
+    color: grey;
+    margin-block-start: 0;
+}
+
+.navigation {
+    position: absolute;
+    right: 100px;
+    top: 40px;
+}
+
+a {
+    color: white;
+    text-decoration: underline;
+}
+
+.margin-top{
+    margin-top: 300px;
+}
+
+.width-50  .margin-top {
+    width: 50%;
+}
